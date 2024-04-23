@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="cal_body">
+            <div class="cal_head">
+                <marquee behavior="" direction="">Design & Developed By "<b>SARDAR HASEEB UR REHMAN</b>" Roll Number:
+                    <b>201119</b></marquee>
+            </div>
+            <input type="text" id="inputField">
+            <table>
+                <tr>
+                    <td class="cal_btn"><button onclick="oneClear()">C</button></td>
+                    <td class="cal_btn" colspan="2"><button onclick="fullClear()">AC</button></td>
+                    <td class="cal_btn"><button onclick="addValue('/')"> / </button></td>
+                </tr>
+                <tr>
+                    <td class="cal_btn"><button onclick="addValue(7)">7</button></td>
+                    <td class=" cal_btn"><button onclick="addValue(8)">8</button></td>
+                    <td class="cal_btn"><button onclick="addValue(9)">9</button></td>
+                    <td class="cal_btn"><button onclick="addValue('*')">*</button></td>
+                </tr>
+                <tr>
+                    <td class="cal_btn"><button onclick="addValue(4)">4</button></td>
+                    <td class="cal_btn"><button onclick="addValue(5)">5</button></td>
+                    <td class="cal_btn"><button onclick="addValue(6)">6</button></td>
+                    <td class="cal_btn"><button onclick="addValue('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td class="cal_btn"><button onclick="addValue(1)">1</button></td>
+                    <td class="cal_btn"><button onclick="addValue(2)">2</button></td>
+                    <td class="cal_btn"><button onclick="addValue(3)">3</button></td>
+                    <td class="cal_btn"><button onclick="addValue('+')">+</button></td>
+
+                </tr>
+                <tr>
+                    <td class="cal_btn"><button onclick="addValue('.')">.</button></td>
+                    <td class="cal_btn"><button onclick="addValue(0)">0</button></td>
+                    <td class="cal_btn" colspan="2" onclick="result()"><button>=</button></td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+</body>
+<script src="./app.js"></script>
+
+</html>

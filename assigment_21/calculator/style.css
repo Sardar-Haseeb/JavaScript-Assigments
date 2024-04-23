@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calculator {
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #171717;
+    box-shadow: 0 0 6px 6px rgb(62 62 62);
+
+
+}
+
+/* .cal_body{
+    text-align: center;
+} */
+.cal_body .cal_head {
+    color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFC700;
+    /* text-align: center; */
+    /* border: 1px solid; */
+}
+
+.cal_body input {
+    width: 100%;
+    height: 280px;
+    border-radius: 50px;
+    border: 1px solid white;
+    text-align: end;
+    margin-bottom: 30px;
+    background-color: #272829;
+    font-size: 36px;
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+    box-shadow: 0 0 6px 6px rgb(62 62 62);
+
+}
+
+.cal_body table {
+    /* border: 1px solid red; */
+    border-radius: 50px;
+    width: 100%;
+    height: 600px;
+    padding: 20px;
+    text-align: center;
+    background-color: #272829;
+    border: 1px solid white;
+    box-shadow: 0 0 6px 6px rgb(62 62 62);
+
+}
+
+.cal_body table tr .cal_btn {
+    border: none;
+    margin: 10px;
+    /* background-color: rgb(118, 106, 106); */
+
+    border-radius: 30px;
+
+}
+
+.cal_body table tr .cal_btn button {
+    border: none;
+    width: 95%;
+    height: 80%;
+    font-size: 36px;
+    font-weight: 600;
+    /* margin: 10px; */
+    color: black;
+    background-color: #FFC700;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    /* box-shadow: 0 0 6px 6px rgb(62 62 62); */
+
+    border-radius: 50px;
+}
+
+.cal_body table tr .cal_btn button:hover {
+    background-color: #FFF455;
+    box-shadow: 0 0 6px 6px rgb(62 62 62);
+}
