@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: mont;
+    src: url(./Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: #1A2130;
+    background-image: url(./quiz_bg.svg);
+    /* background-attachment: fixed; */
+    background-position: center center;
+    background-color: #1a2130;
+    background-size: cover;
+    font-family: mont;
+
+}
+
+.top-head {
+    color: white;
+    text-align: center;
+    margin: 50px 0;
+    font-size: 42px;
+}
+
+.hide {
+    /* display: none; */
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+
+}
+
+#quizContainer {
+    /* border: 1px solid red; */
+    width: 40%;
+    margin: 0 auto;
+    background-color: #1A2130;
+    padding: 40px;
+    color: white;
+    border-radius: 20px;
+}
+
+.header {
+    background-color: #FFDB00;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    color: #1A2130;
+    font-weight: bold;
+}
+
+.body ol {
+    /* list-style-position:  inside; */
+    /* list-style: none; */
+
+}
+
+.body h3 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.footer {
+    border: 1px solid #FFDB00;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.footer div #nextQuesBtn {
+    background-color: #FFDB00;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    font-weight: 600;
+}
+
+#htmlOptions li {
+    border: 1px solid #FFDB00;
+    padding: 8px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 10px;
+
+    font-weight: 600;
+}
+
+/* #htmlOptions li:hover {
+        background-color: #ffdd001a;
+
+    } */
+
+.correctAns {
+    background-color: green;
+    color: white;
+}
+
+
+
+.wrongAns {
+    background-color: red;
+    color: white;
+}
+
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    /* height: 100vh; */
+    margin: 200px auto;
+    /* background-color: #1a2130; */
+}
+
+.formContainer h2 {
+    color: white;
+}
+
+.formContainer input {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+    height: 45px;
+}
+
+.formContainer button {
+    background-color: #FFDB00;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    font-size: large;
+
+}
+
+#startContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#startContainer a button {
+    background-color: #FFDB00;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    font-size: large;
+
+}
+
+.resultContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1a2130;
+    /* background-color: #FFDB00; */
+    width: 60%;
+    margin: 0 auto;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.resultContainer div {
+    display: flex;
+    border: none;
+    background-color: #FFDB00;
+    padding: 20px;
+    width: 30%;
+    justify-content: space-between;
+    font-weight: 600;
+    margin: 5px;
+    color: #1A2130;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.resultContainer h3 {
+    font-size: 50px;
+    margin: 50px 0;
+}
+
+
+.resultContainer a button {
+
+    background-color: #1A2130;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #FFDB00;
+    width: 300px;
+    font-size: large;
+    color: #FFDB00;
+    margin: 50px 0;
+}
+
+.resultContainer a button:hover {
+
+    background-color: #FFDB00;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #FFDB00;
+    width: 300px;
+    font-size: large;
+    color: #1A2130;
+    margin: 50px 0;
+    cursor: pointer;
+}
+
+
+@media sc

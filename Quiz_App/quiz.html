@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="startQuiz()">
+    <h1 class="top-head">QUIZ APP</h1>
+
+    <div id="quizContainer">
+        <!-- header -->
+        <div class="header">
+            <section>
+                <div>
+                    <span>Name:</span>
+                    <span id="userName">Jaffar</span>
+                </div>
+                <div>
+                    <span>
+                        Email:
+                    </span>
+                    <span id="userEmail">jaffar@gmail.com</span>
+                </div>
+            </section>
+            <section>
+                <!-- <div id="timer">
+                    <span>Timer:</span>
+                    <span>00:00</span>
+                </div> -->
+                <div id="timer">Time Left: 10:00</div>
+
+            </section>
+        </div>
+        <br>
+        <br>
+        <!-- body -->
+        <div class="body">
+            <div>
+                <h3 id="htmlQues">
+
+                </h3>
+            </div>
+            <br>
+
+            <div>
+                <ol id="htmlOptions">
+                    <!-- <li>HELLO WORLD</li>
+                    <li>HELLO WORLD</li>
+                    <li>HELLO WORLD</li>
+                    <li>HELLO WORLD</li> -->
+                </ol>
+            </div>
+
+        </div>
+        </br>
+        <!-- footer -->
+        <div class="footer">
+            <div id="counter">
+                <span id="currentCount"> 1 </span> / <span id="totalCount"></span>
+            </div>
+
+            <div>
+                <button onclick="nextQues()" id="nextQuesBtn" class="hide">NEXT QUESTION</button>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- <div class="resultContainer hide">
+        <h3>Result:</h3>
+        <div>
+            <p>Correct Answers:</p>
+            <p id="correctAns"></p>
+        </div>
+        <div>
+            <p>Wrong Answers:</p>
+            <p id="wrongAns"></p>
+        </div>
+        <div>
+            <p>Questions Attempted:</p>
+            <p id="attemptedAns"></p>
+        </div>
+        <div>
+            <p>Total Questions: </p>
+            <p><span id="totalQuestions"></span></p>
+        </div>
+        <div>
+            
+            <p>Percentage: </p>
+            <p><span id="percentage"></span>%</p>
+        </div>
+    </div> -->
+
+</body>
+<script src="quiz.js"></script>
+
+</html>
